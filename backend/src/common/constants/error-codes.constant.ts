@@ -1,0 +1,9 @@
+export const ErrorCodes = {
+  PERSON_NOT_FOUND: 'PERSON_NOT_FOUND',
+  CPF_ALREADY_EXISTS: 'CPF_ALREADY_EXISTS',
+  EMAIL_ALREADY_EXISTS: 'EMAIL_ALREADY_EXISTS',
+  VALIDATION_ERROR: 'VALIDATION_ERROR',
+  INTERNAL_ERROR: 'INTERNAL_ERROR',
+} as const;
+
+export type ErrorCode = (typeof ErrorCodes)[keyof typeof ErrorCodes];
