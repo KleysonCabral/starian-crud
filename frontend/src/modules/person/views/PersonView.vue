@@ -224,7 +224,7 @@ async function handleDelete(): Promise<void> {
 
             <div class="rounded-2xl border border-white/10 bg-slate-900 p-4 text-white shadow-sm">
               <p class="text-xs font-semibold uppercase tracking-[0.16em] text-slate-400">Estado da interface</p>
-              <p class="mt-2 text-lg font-semibold">{{ panelOpen ? panelTitle : 'Operação disponível' }}</p>
+              <p class="mt-2 text-lg font-semibold">{{ panelOpen ? panelTitle : 'Pronto para cadastro' }}</p>
               <p class="mt-1 text-sm text-slate-300">
                 {{ panelOpen ? panelSubtitle : 'Utilize o painel lateral para criar ou editar registros.' }}
               </p>
